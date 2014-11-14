@@ -27,6 +27,12 @@ For example, initialise Behat for `Transform\AppBundle`
 bin/behat --config test/behat.yml --init "@TransformAppBundle"
 ```
 
+Run features from bundle
+
+```
+bin/behat --config test/behat.yml "@TransformAppBundle"
+```
+
 ## PHPSpec
 
 To run PHPSpec suite `bin/phpspec run  --config test/phpspec.yml`
@@ -37,6 +43,32 @@ Results:
 1 specs
 1 example (1 passed)
 21ms
+```
+
+## Run full test suite in parallel
+
+```
+bin/robo parallel:run
+```
+
+```
+ [Robo\Task\ParallelExecTask] bin/phpspec run  --config test/phpspec.yml
+ [Robo\Task\ParallelExecTask] bin/behat --config test/behat.yml "@TransformAppBundle"
+ [Robo\Task\ParallelExecTask] Processes: 1/2 [==============>-------------]  50%
+ [Robo\Task\ParallelExecTask] Output for  bin/phpspec run  --config test/phpspec.yml 
+/  pending: 0%  / passed: 100%  /  failed: 0%   /  broken: 0%   /  1 examples
+1 specs
+1 example (1 passed)
+9ms
+
+ [Robo\Task\ParallelExecTask] Processes: 2/2 [============================] 100%
+ [Robo\Task\ParallelExecTask] Output for  bin/behat --config test/behat.yml "@TransformAppBundle" 
+No scenarios
+No steps
+0m0.005s
+
+
+ [Robo\Task\ParallelExecTask] 2 processes ended in 0.18 s
 ```
 
 ## Contributions
