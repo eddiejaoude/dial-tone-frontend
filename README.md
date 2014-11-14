@@ -9,6 +9,8 @@
 
 `php app/console server:run`
 
+Then go to `http://localhost:8000/hello/guest`
+
 
 ## Behat command (use config in test/behat.yml)
 
