@@ -1,0 +1,6 @@
+suites:
+    default:
+        namespace: Transform\AppBundle
+        spec_prefix: Spec
+        spec_path: src/Transform/AppBundle/Tests
+        src_path: src/Transform/AppBundle

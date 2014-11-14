@@ -27,3 +27,18 @@ For example, initialise Behat for `Transform\AppBundle`
 bin/behat --config test/behat.yml --init "@TransformAppBundle"
 ```
 
+## PHPSpec
+
+To run PHPSpec suite `bin/phpspec run  --config test/phpspec.yml`
+
+Results:
+```
+                       100%                        1
+1 specs
+1 example (1 passed)
+21ms
+```
+
+## Contributions
+
+We are using GitFlow https://github.com/nvie/gitflow
