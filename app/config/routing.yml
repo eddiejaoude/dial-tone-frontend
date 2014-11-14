@@ -1,0 +1,5 @@
+transform_app:
+    resource: "@TransformAppBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
