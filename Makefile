@@ -9,8 +9,7 @@ scrutinizer.coverage:
 	wget https://scrutinizer-ci.com/ocular.phar
 	php ocular.phar code-coverage:upload --format=php-clover test/build/coverage.xml
 
-travis:
-	build.version build.tag
+travis: build.version build.tag
 
 build.version:
 	export GIT_TAG=build-$(TRAVIS_BRANCH)-$(date -u "+%Y-%m-%d")-$(TRAVIS_BUILD_NUMBER)
