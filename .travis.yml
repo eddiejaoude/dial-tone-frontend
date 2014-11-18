@@ -4,12 +4,10 @@ php:
   - 5.5
 
 before_script:
-  - curl -s http://getcomposer.org/installer | php
-  - php composer.phar install --dev --no-interaction
+  - make composer.install
 
 script:
   - bin/robo parallel:run
 
 after_script:
-  - wget https://scrutinizer-ci.com/ocular.phar
-  - php ocular.phar code-coverage:upload --format=php-clover test/build/coverage.xml
+  - make scrutinizer.coverage.send
