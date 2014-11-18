@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TransformCore/dial-tone-frontend.svg?branch=feature%2Fsymfony2-behat)](https://travis-ci.org/TransformCore/dial-tone-frontend)
+
 # DialTone
 
 ## Check project
