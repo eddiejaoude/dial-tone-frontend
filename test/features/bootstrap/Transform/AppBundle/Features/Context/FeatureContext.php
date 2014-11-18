@@ -4,6 +4,7 @@ namespace Transform\AppBundle\Features\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
+use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 
@@ -21,5 +22,21 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function __construct()
     {
+    }
+
+    /**
+     * @Given I am on :arg1
+     */
+    public function iAmOn($arg1)
+    {
+        \PHPUnit_Framework_Assert::assertEquals('/hello/Behat', $arg1);
+    }
+
+    /**
+     * @Then I should see :arg1
+     */
+    public function iShouldSee($arg1)
+    {
+        \PHPUnit_Framework_Assert::assertEquals('Hello Behat!', $arg1);
     }
 }
