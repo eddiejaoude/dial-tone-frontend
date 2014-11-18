@@ -9,5 +9,5 @@ checks:
         duplication: true
 
 filter:
-    paths: [app/*, src/]
+    paths: [src/*]
     excluded_paths: [src/Transform/AppBundle/Tests/*]
