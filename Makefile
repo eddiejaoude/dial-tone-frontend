@@ -15,7 +15,7 @@ scrutinizer.coverage:
 travis: build.version build.tag
 
 build.version:
-	echo -n $(GIT_TAG) > web/VERSION
+	sed -i '' 's/--unknown--/$(GIT_TAG)/g' version.ini 
 	git commit -m "Set build VERSION number" web/VERSION
 
 build.tag:
