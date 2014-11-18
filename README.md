@@ -81,6 +81,4 @@ No steps
 
 ## Contributions
 
-* We are using GitFlow https://github.com/nvie/gitflow
-* Every commit (code / documentation) must go through a Pull Request
-* When merging a Pull Request `Squash` the **Commits** with the **Feature** Description - this is used for the **Changelog**  
+Please read on [Contribution Guildlines](/doc/ContributionGuildlines.md)
