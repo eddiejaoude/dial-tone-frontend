@@ -2,7 +2,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/quality-score.png?b=feature%2Fsymfony2-behat)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=feature%2Fsymfony2-behat)
 [![Dependency Status](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f)
 [![Dependency Status](https://www.versioneye.com/user/projects/546b16539508250a0c000166/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b16539508250a0c000166)
-
+[![Code Coverage](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/coverage.png?b=feature%2Fsymfony2-behat)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=feature%2Fsymfony2-behat)
 
 # DialTone
 
