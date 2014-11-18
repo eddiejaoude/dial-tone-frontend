@@ -10,4 +10,15 @@ script:
   - make test.run
 
 after_script:
-  - make scrutinizer.coverage.send
+  - make scrutinizer.coverage
+
+after_success:
+  - make travis
+
+branches:
+  except:
+    - /^build-[0-9a-z\-]*/
+
+env:
+  global:
+    - secure: "RCTrTVKciTmOPjSSLUwcCrsKZdKjw2tRUJEuwaOAmH/dLT4DRwyWg5+OJNin9napEcf+F96QFGSgfzoFnMvIg0rp1Bp4IPkIwBu+8fdIOQQApEEAPDg5jDCxzl17m0NPxGS6Pmv4u+OD+xyAkA24FjDk3ZUq1clFhX3LXINFRlk="
