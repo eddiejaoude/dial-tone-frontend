@@ -28,6 +28,18 @@ class Test
      */
     private $name;
 
+    /**
+     * Set id
+     *
+     * @param integer
+     * @return Test
+     */
+    public function setId($id)
+    {
+        $this->id = (int) $id;
+
+        return $this;
+    }
 
     /**
      * Get id
@@ -47,7 +59,7 @@ class Test
      */
     public function setName($name)
     {
-        $this->name = $name;
+        $this->name = (string) $name;
 
         return $this;
     }

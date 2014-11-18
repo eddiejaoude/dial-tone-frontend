@@ -11,4 +11,21 @@ class TestSpec extends ObjectBehavior
     {
         $this->shouldHaveType('Transform\AppBundle\Entity\Test');
     }
+
+
+    function it_should_set_then_get_id()
+    {
+        $id = 123;
+
+        $this->setId($id);
+        $this->getId()->shouldReturn($id);
+    }
+
+    function it_should_set_then_get_name()
+    {
+        $name = 'testname';
+
+        $this->setName($name);
+        $this->getName()->shouldReturn($name);
+    }
 }

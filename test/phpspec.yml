@@ -4,3 +4,16 @@ suites:
         spec_prefix: Spec
         spec_path: src/Transform/AppBundle/Tests
         src_path: src/Transform/AppBundle
+
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+  whitelist:
+    - src/Transform/AppBundle/Entity
+  format:
+    - html
+    - clover
+  output:
+    html: test/build/coverage
+    clover: test/build/coverage.xml

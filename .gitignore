@@ -19,4 +19,5 @@ composer.phar
 /build/
 /vendor/
 /bin/
-
+!test/build/.gitkeep
+test/build/
