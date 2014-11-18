@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/TransformCore/dial-tone-frontend.svg?branch=feature%2Fsymfony2-behat)](https://travis-ci.org/TransformCore/dial-tone-frontend)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/quality-score.png?b=feature%2Fsymfony2-behat)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=feature%2Fsymfony2-behat)
 
 # DialTone
 
