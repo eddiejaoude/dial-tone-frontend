@@ -8,4 +8,4 @@ before_script:
   - php composer.phar install --dev --no-interaction
 
 script:
-  - bin/phpspec run  --config test/phpspec.yml
+  - bin/robo parallel:run
