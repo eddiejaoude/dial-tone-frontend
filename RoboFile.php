@@ -11,7 +11,7 @@ class RoboFile extends \Robo\Tasks
     {
         $this->taskParallelExec()
             ->process('bin/phpspec run  --config test/phpspec.yml')
-            ->process('bin/behat --config test/behat.yml "@TransformAppBundle"')
+            ->process('bin/behat --config test/behat.yml --suite=transform_app')
             ->printed()
             ->run();
     }

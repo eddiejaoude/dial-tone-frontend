@@ -24,9 +24,10 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "behat/behat":  "2.5.*@stable",
-        "behat/symfony2-extension": "*",
-        "behat/mink": "1.6.*",
+        "behat/behat":  "3.0.*",
+        "behat/symfony2-extension": "~2.0@dev",
+        "behat/mink-extension": "~2.0@dev",
+        "behat/mink-browserkit-driver": "~1.1@dev",
         "phpunit/phpunit": "4.*@stable",
         "phpspec/phpspec": "~2.0",
         "codegyre/robo": "*"

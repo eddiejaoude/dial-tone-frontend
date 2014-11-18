@@ -19,18 +19,20 @@
 
 ## Behat command (use config in test/behat.yml)
 
+Documentation at http://docs.behat.org/en/latest/quick_intro_pt1.html
+
 `bin/behat --config test/behat.yml`
 
 For example, initialise Behat for `Transform\AppBundle`
 
 ```
-bin/behat --config test/behat.yml --init "@TransformAppBundle"
+bin/behat --config test/behat.yml --init --suite=transform_app
 ```
 
 Run features from bundle
 
 ```
-bin/behat --config test/behat.yml "@TransformAppBundle"
+bin/behat --config test/behat.yml --suite=transform_app
 ```
 
 ## PHPSpec
