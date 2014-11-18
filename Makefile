@@ -16,7 +16,7 @@ travis: build.version build.tag
 
 build.version:
 	sed 's>--unknown-->$(GIT_TAG)>g' > version.ini 
-	git commit -m "Set build VERSION number" web/VERSION
+	git commit -m "Set build VERSION number" version.ini
 
 build.tag:
 	git config --global user.email "builds@travis-ci.com"
