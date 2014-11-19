@@ -1,16 +1,15 @@
 suites:
     default:
-        namespace: Transform\AppBundle
+        namespace: TransformCore\Bundle\AppBundle
         spec_prefix: Spec
-        spec_path: src/Transform/AppBundle/Tests
-        src_path: src/Transform/AppBundle
+        spec_path: src/TransformCore/Bundle/AppBundle/Tests
 
 extensions:
   - PhpSpec\Extension\CodeCoverageExtension
 
 code_coverage:
   whitelist:
-    - src/Transform/AppBundle/Entity
+    - src/TransformCore/Bundle/AppBundle/Entity
   format:
     #- html
     - clover

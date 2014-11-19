@@ -1,5 +1,4 @@
-transform_app:
-    resource: "@TransformAppBundle/Controller/"
-    type:     annotation
+transform_core_app:
+    resource: "@TransformCoreAppBundle/Resources/config/routing.yml"
     prefix:   /
 

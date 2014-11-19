@@ -4,9 +4,9 @@ default:
         contexts:
           - FeatureContext:
             session:   '@session'
-      transform_app:
+      transformcore_app:
         type: symfony_bundle
-        bundle: TransformAppBundle
+        bundle: TransformCoreAppBundle
     extensions:
       Behat\Symfony2Extension: ~
       Behat\MinkExtension:

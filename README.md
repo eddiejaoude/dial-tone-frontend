@@ -37,13 +37,13 @@ Documentation at http://docs.behat.org/en/latest/quick_intro_pt1.html
 For example, initialise Behat for `Transform\AppBundle`
 
 ```
-bin/behat --config test/behat.yml --init --suite=transform_app
+bin/behat --config test/behat.yml --init --suite=transformcore_app
 ```
 
 Run features from bundle
 
 ```
-bin/behat --config test/behat.yml --suite=transform_app
+bin/behat --config test/behat.yml --suite=transformcore_app
 ```
 
 ## PHPSpec
