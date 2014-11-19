@@ -13,7 +13,7 @@ after_script:
   - make scrutinizer.coverage
 
 after_success:
-  - make travis
+  - make build.package
 
 branches:
   except:

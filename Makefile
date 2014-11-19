@@ -12,7 +12,7 @@ scrutinizer.coverage:
 	wget https://scrutinizer-ci.com/ocular.phar
 	php ocular.phar code-coverage:upload --format=php-clover test/build/coverage.xml
 
-travis: build.user build.version build.tag
+build.package: build.user build.version build.tag
 
 build.user:
 	git config --global user.email "builds@travis-ci.com"
