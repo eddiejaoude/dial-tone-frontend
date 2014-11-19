@@ -6,6 +6,11 @@
 
 # DialTone
 
+## Table of Contents
+
+[Contribution guidelines](/doc/ContributionGuidelines.md)
+[Versioning successful builds - Release Candidates](/Versioning.md)
+
 ## Check project
 
 `php app/check.php`
