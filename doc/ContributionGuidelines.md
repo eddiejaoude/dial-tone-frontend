@@ -1,5 +1,7 @@
 # Contributions
 
+Return to [Table of Contents](/README.md#table-of-contents)
+
 * We are using GitFlow https://github.com/nvie/gitflow
 * Every commit (inc. code / documentation etc) must go through a Pull Request
 * Before merging a Pull Request, in addition to reviewing the code, check the following:
