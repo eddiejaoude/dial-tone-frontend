@@ -19,7 +19,7 @@ build.user:
 	git config --global user.name "Travis CI"
 
 build.version:
-	replace '--unknown--' $(GIT_TAG) -- version.ini 
+	replace '{{ version_self }}' $(GIT_TAG) -- version.ini 
 	git commit -m "Set build VERSION number" version.ini
 
 build.tag:
