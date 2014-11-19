@@ -16,7 +16,7 @@ travis: build.user build.version build.tag
 
 build.user:
 	git config --global user.email "builds@travis-ci.com"
-        git config --global user.name "Travis CI"
+	git config --global user.name "Travis CI"
 
 build.version:
 	replace '--unknown--' $(GIT_TAG) -- version.ini 
