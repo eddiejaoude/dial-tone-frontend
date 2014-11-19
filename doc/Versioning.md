@@ -6,4 +6,4 @@ On successful build, the version/tag/build number is written to `/version.ini`, 
 
 This is also know as a **Release Candidate**
 
-![Versioning](/doc/assets/versioning/layout.png Versioning)
+![Versioning](/doc/assets/versioning/layout.png "Version/Build  Number Screenshot")
