@@ -9,7 +9,7 @@
 ## Table of Contents
 
 [Contribution guidelines](/doc/ContributionGuidelines.md)
-[Versioning successful builds - Release Candidates](/Versioning.md)
+[Versioning successful builds - Release Candidates](/doc/Versioning.md)
 
 ## Check project
 
