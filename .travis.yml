@@ -21,7 +21,7 @@ branches:
 
 notifications:
   slack:
-    secure: "YdsXHqZ3S9gkBsC92vsjN2qw/bGwYYxuoDPHqTx+37yt8sIbNhaT72nUQIO9nzzmZVOVNbg/oN2IErV5AL3oLWxTROcZT8AMnHzV5AM05epXlXPV0dugY5l+UUPztTJooTStj4oPrrjXQf8jxaKVL++uRX7AmRxDnTDvGclI5/w="
+    secure: YdsXHqZ3S9gkBsC92vsjN2qw/bGwYYxuoDPHqTx+37yt8sIbNhaT72nUQIO9nzzmZVOVNbg/oN2IErV5AL3oLWxTROcZT8AMnHzV5AM05epXlXPV0dugY5l+UUPztTJooTStj4oPrrjXQf8jxaKVL++uRX7AmRxDnTDvGclI5/w=
 
 env:
   global:
