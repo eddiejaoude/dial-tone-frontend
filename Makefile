@@ -1,6 +1,9 @@
 # parameters
 GIT_TAG=build-$(TRAVIS_BRANCH)-$(TRAVIS_BUILD_NUMBER)
 
+check:
+	php app/check.php
+
 composer.install:
 	if [ ! -f "composer.phar" ] ; then curl -s http://getcomposer.org/installer | php ; fi
 	php composer.phar install --dev --no-interaction
@@ -30,11 +33,11 @@ build.tag:
 	git tag $(GIT_TAG) -a -m "Generated tag from TravisCI build $(TRAVIS_BUILD_NUMBER)"
 	@git push --quiet https://$(GITHUBKEY)@github.com/TransformCore/dial-tone-frontend $(GIT_TAG) > /dev/null 2>&1
 
-dev.run: dev.branch composer.install dev.run
+dev.run: check dev.branch composer.install dev.server
 
 dev.branch:
 	git checkout ${branch}
 
-dev.run:
+dev.server:
 	php app/console server:run
 
