@@ -8,6 +8,9 @@ composer.install:
 	if [ ! -f "composer.phar" ] ; then curl -s http://getcomposer.org/installer | php ; fi
 	php composer.phar install --dev --no-interaction
 
+composer.update:
+	php composer.phar upate
+
 test.run:
 	bin/robo parallel:run
 
@@ -34,6 +37,8 @@ build.tag:
 	@git push --quiet https://$(GITHUBKEY)@github.com/TransformCore/dial-tone-frontend $(GIT_TAG) > /dev/null 2>&1
 
 dev.run: dev.branch composer.install dev.server
+
+dev.update: dev.branch composer.update dev.server
 
 dev.branch:
 	git checkout ${branch}
