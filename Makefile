@@ -33,7 +33,7 @@ build.tag:
 	git tag $(GIT_TAG) -a -m "Generated tag from TravisCI build $(TRAVIS_BUILD_NUMBER)"
 	@git push --quiet https://$(GITHUBKEY)@github.com/TransformCore/dial-tone-frontend $(GIT_TAG) > /dev/null 2>&1
 
-dev.run: check dev.branch composer.install dev.server
+dev.run: dev.branch composer.install dev.server
 
 dev.branch:
 	git checkout ${branch}

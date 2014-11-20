@@ -18,7 +18,6 @@
 Optionally add a **branch / release tag** `make dev.run branch=build-feature/symfony2-behat-35`
 
 This will run the following:
-* Check
 * Switch to **branch / release** tag if requested
 * Install any/all dependencies (composer install)
 * Start WebServer
