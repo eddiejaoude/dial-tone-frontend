@@ -19,8 +19,8 @@ Optionally add a **branch / release tag** `make dev.run branch=build-feature/sym
 
 This will run the following:
 * Check
-* Switch to **branch / release **tag if requested
-* Install an dependencies (composer install)
+* Switch to **branch / release** tag if requested
+* Install any/all dependencies (composer install)
 * Start WebServer
 
 2. Then go to `http://localhost:8000/hello/guest`
