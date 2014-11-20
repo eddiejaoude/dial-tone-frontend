@@ -2,7 +2,7 @@
 GIT_TAG=build-$(TRAVIS_BRANCH)-$(TRAVIS_BUILD_NUMBER)
 
 composer.install:
-	curl -s http://getcomposer.org/installer | php
+	if [ ! -f "composer.phar" ] ; then curl -s http://getcomposer.org/installer | php ; fi
 	php composer.phar install --dev --no-interaction
 
 test.run:
