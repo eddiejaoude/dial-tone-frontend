@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33241089ed43a2af5ab186b7f7a5e176",
+    "hash": "9633e1b2c656719452d34c930a960e32",
     "packages": [
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -2233,6 +2233,65 @@
             ],
             "description": "Integrates CodeCoverage with PhpSpec",
             "time": "2014-07-04 11:53:55"
+        },
+        {
+            "name": "leaseweb/version-information-bundle",
+            "version": "v1.0.5",
+            "target-dir": "Lsw/VersionInformationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeaseWeb/LswVersionInformationBundle.git",
+                "reference": "652a3640de34384528e324936170dabb4349126f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeaseWeb/LswVersionInformationBundle/zipball/652a3640de34384528e324936170dabb4349126f",
+                "reference": "652a3640de34384528e324936170dabb4349126f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": "~2.1",
+                "symfony/process": "~2.1",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "*",
+                "swiftmailer/swiftmailer": "*",
+                "symfony/validator": "2.1.*",
+                "symfony/yaml": "2.1.*",
+                "twig/twig": "*",
+                "willdurand/propel-typehintable-behavior": "dev-master"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Lsw\\VersionInformationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurits van der Schee",
+                    "email": "m.vanderschee@leaseweb.com"
+                }
+            ],
+            "description": "Adds output of SVN and Git 'status' commands to the Web Debug Toolbar",
+            "homepage": "http://www.leaseweblabs.com",
+            "keywords": [
+                "subversion",
+                "svn",
+                "version"
+            ],
+            "time": "2013-09-05 13:23:25"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
