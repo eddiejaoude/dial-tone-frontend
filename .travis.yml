@@ -15,6 +15,9 @@ after_script:
 after_success:
   - make build.package
 
+after_failure:
+  - make logs
+
 branches:
   except:
     - /^build-[0-9a-z\-]*/

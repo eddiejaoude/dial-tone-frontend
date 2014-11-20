@@ -41,3 +41,6 @@ dev.branch:
 dev.server:
 	php app/console server:run
 
+logs:
+	cat app/logs/*.log
+
