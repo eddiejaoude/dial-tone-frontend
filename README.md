@@ -11,19 +11,17 @@
 * [Contribution guidelines](/doc/ContributionGuidelines.md)
 * [Versioning successful builds - Release Candidates](/doc/Versioning.md)
 
-## Check project
+## Run app
 
-`php app/check.php`
+1. `make dev.run`
 
-## Download dependencies via composer
+Optionally add a **branch / release tag** `make dev.run branch=build-feature/symfony2-behat-35`
 
-1. `php -r "readfile('https://getcomposer.org/installer');" | php`
-
-2. `php composer.phar install`
-
-## Run built in WebServer
-
-1. `php app/console server:run`
+This will run the following:
+* Check
+* Switch to **branch / release **tag if requested
+* Install an dependencies (composer install)
+* Start WebServer
 
 2. Then go to `http://localhost:8000/hello/guest`
 
