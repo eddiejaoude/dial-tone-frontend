@@ -30,3 +30,11 @@ build.tag:
 	git tag $(GIT_TAG) -a -m "Generated tag from TravisCI build $(TRAVIS_BUILD_NUMBER)"
 	@git push --quiet https://$(GITHUBKEY)@github.com/TransformCore/dial-tone-frontend $(GIT_TAG) > /dev/null 2>&1
 
+dev.run: dev.branch composer.install dev.run
+
+dev.branch:
+	git checkout ${branch}
+
+dev.run:
+	php app/console server:run
+
