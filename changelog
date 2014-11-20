@@ -1,0 +1,51 @@
+* 0395567 (HEAD) Set build VERSION number build-feature/symfony2-behat-35
+* b97793b (origin/feature/symfony2-behat, origin/HEAD, feature/symfony2-behat) Make - change branch & run built-in php webserver
+* f047b07 Make Composer download conditional
+* 6248a8d DevToolbar with Git plugin
+* 7731619 Changelog page added by clicking on Build No.
+* ad8f0e6 Renamed bundle from `Transform` to `TransformCore`
+* 85993a6 Removed branding - put `NAME` as placeholder
+* 7dfaaf4 Changelog generated on build
+* 8d9a47d Regenerated token & encrypted
+* f7f1d8b Makefile suppress output for Git push
+* 7112ae0 Renamed `after_success` Make command
+* 0e0a2a4 Formatting of documentation
+* 3fccfc2 Fixed markdown image title
+* c710927 Fixed broken documentation link
+* 2fafbbe Version format added to documentation
+* b426ed9 Table of Contents & Versioning information
+* 058bf3b Renamed version placeholder
+* 8dc292b Converted Makefile to tabs not spaces from paste
+* d9943b7 Set build user first before commit
+* 5a7db8f using `replace` instead of `sed`
+* 1c80425 Modified the sed delimiters
+* f391a13 Quoted sed variable
+* ba56904 Removed sed pipe & replace inline
+* e183474 Fixed version file typo
+* 24f08b6 Sed replace in file replaced to pipe to file
+* 6b1a9b3 Fixed delimiter issue on Build Number
+* 693a0d1 Quoted Make variable (tag number)
+* 572f86e Writing VERSION number to config & read in Layout
+* 4f4eb77 Fixed GIT_TAG variable for build process
+* 968e5e2 Renamed & Updated Contribution Guidelines
+* e848fd0 Fixed Makefile format to load sub calls
+* e50b4e8 Version number & Tag/Release created
+* 69dd978 Run test command moved to Makefile
+* 52adb4b Fixed typo - missing `:` and end of line
+* 877f45e TravisCI simplified using Makefile
+* 681dc45 Moved `ContributionGuildlines` to docs folder
+* dfc5c9f Removed `app/` from the Static Code Analysis
+* 35f8b16 Moved default scrutinizer to repo app config
+* 692b0fd Filtered Static Code analysis configuration
+* f487634 Code Coverage Badge added
+* 162c1ac Code coverage sending to Scrutiniser
+* df64ffe PHPSpec code coverage added
+* 5570b23 Version Eye Badges added
+* fec6df6 Running all tests in Parallel (PHPSpec & Behat)
+* 6e11afd Scrutiniser Badge added
+* 9c3dd7e Contributions requirements
+* 91fdb6b TravisCI Badge added to README
+* dfa7f4f Initial TravisCI config for PHPSpec
+* 480659a #1 Added Simple Behat test
+* 8c84af9 Upgraded to Behat v3
+* bbb5661 (grafted) Twitter bootstrap added to Application
