@@ -41,6 +41,7 @@ dev.run: dev.branch composer.install dev.server
 dev.update: dev.branch composer.update dev.server
 
 dev.branch:
+	git pull --tags
 	git checkout ${branch}
 
 dev.server:
