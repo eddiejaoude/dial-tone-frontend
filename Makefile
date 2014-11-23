@@ -45,7 +45,7 @@ dev.branch:
 	git checkout ${branch}
 
 dev.server:
-	php app/console server:run
+	php app/console server:run -vvv
 
 logs:
 	cat app/logs/*.log
