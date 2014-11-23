@@ -1,0 +1,14 @@
+{
+    "name": "TransformCore/dial-tone-frontend",
+    "description": "Skeleton project with Symfony",
+    "keywords": [
+        "transform uk",
+        "symfony2"
+    ],
+    "website": "https://github.com/TransformCore/dial-tone-frontend",
+    "repository": "https://github.com/TransformCore/dial-tone-frontend",
+    "success_url": "/hello/guest",
+    "env": {
+        "SYMFONY_ENV": "prod"
+    }
+}
