@@ -32,7 +32,7 @@ env:
 
 deploy:
   provider: heroku
-  buildpack: https://github.com/eddiejaoude/heroku-buildpack-php-dev.git#master
+  buildpack: https://github.com/eddiejaoude/heroku-buildpack-php-dev#master
   api_key:
     secure: ZI+ZGOlnq5/ThMbOh3h/EgQqMILxjxyJB90jY1AdTbPRh4qC9ZzLq4wGAKJOqOO3TF0UyjuEEIyrxVypVQ27dllYvXt2pa7JU79yQpbFkWxa/B9o6lscjdRJ3Zm/6Lie1/mF2P0uwoGLRFXi7y6R5m2aY+NJ9IEvxyJiOfygMV0=
   app: dial-tone-frontend
