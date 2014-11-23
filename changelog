@@ -1,0 +1,51 @@
+* 85b7fcb (HEAD) Set build VERSION number build-feature/symfony2-behat-50
+* 227ddb4 (origin/feature/symfony2-behat, origin/HEAD, feature/symfony2-behat) Revert "Test commit for prod mode"
+* 96ad233 Test commit for prod mode
+* bb6d004 Running dev server with verbose on
+* 74e0892 Updated meta-data (name & description) in composer
+* 789f9a8 Removed duplicates in git ignore
+* 1ddb948 Updated composer lock file
+* 3054e7d Moved heroku build pack to dev requirement
+* e0e6545 Deploy TravisCI to Heroku after successful build
+* 29bf353 Heroku config file added & build pack dependency
+* 993acd0 Extended MinkContext to use provided Contexts
+* d95e018 Changelog behat feature added
+* d43dca8 Makefile does a Git Pull Tags before switching
+* 4cd0420 Updated composer lock
+* 7d4cd57 dev.update added to make file
+* 1dcf4f3 Removed ENV check from dev.run command
+* 7666868 Log dump added to Makefile. AfterFailure dump log
+* 3bef5b3 Travis / Slack integration, removed quoted token
+* 7079694 Updated TravisCI / Slack integration config
+* 0e3b18a Fixed typos in documentation
+* e450be7 Updated jQuery
+* 13ce1d0 Upgrade jQuery & twitter bootstrap symfony bundle
+* cb4787f TravisCI & Slack integration updated token / var
+* d51e0d0 Updated Docs to use Make commands
+* 39a6eed Notifications to TravisCI for Slack
+* ab2e6e8 Renamed Make running built-in web server condition
+* b97793b Make - change branch & run built-in php webserver
+* f047b07 Make Composer download conditional
+* 6248a8d DevToolbar with Git plugin
+* 7731619 Changelog page added by clicking on Build No.
+* ad8f0e6 Renamed bundle from `Transform` to `TransformCore`
+* 85993a6 Removed branding - put `NAME` as placeholder
+* 7dfaaf4 Changelog generated on build
+* 8d9a47d Regenerated token & encrypted
+* f7f1d8b Makefile suppress output for Git push
+* 7112ae0 Renamed `after_success` Make command
+* 0e0a2a4 Formatting of documentation
+* 3fccfc2 Fixed markdown image title
+* c710927 Fixed broken documentation link
+* 2fafbbe Version format added to documentation
+* b426ed9 Table of Contents & Versioning information
+* 058bf3b Renamed version placeholder
+* 8dc292b Converted Makefile to tabs not spaces from paste
+* d9943b7 Set build user first before commit
+* 5a7db8f using `replace` instead of `sed`
+* 1c80425 Modified the sed delimiters
+* f391a13 Quoted sed variable
+* ba56904 Removed sed pipe & replace inline
+* e183474 Fixed version file typo
+* 24f08b6 Sed replace in file replaced to pipe to file
+* 6b1a9b3 (grafted) Fixed delimiter issue on Build Number
