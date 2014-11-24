@@ -37,3 +37,5 @@ deploy:
   app: dial-tone-frontend
   on:
     all_branches: true
+  run:
+    - "php app/console assetic:dump --env=prod --no-debug"
