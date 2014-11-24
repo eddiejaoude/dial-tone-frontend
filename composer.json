@@ -20,7 +20,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "braincrafted/bootstrap-bundle": "~2.0",
         "twbs/bootstrap": "3.3.*",
-        "jquery/jquery":  "2.0.*"
+        "jquery/jquery":  "1.11.1"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "*",
@@ -76,9 +76,9 @@
             "type": "package",
             "package": {
                 "name": "jquery/jquery",
-                "version": "2.0.3",
+                "version": "1.11.1",
                 "dist": {
-                    "url": "http://code.jquery.com/jquery-2.0.3.js",
+                    "url": "http://code.jquery.com/jquery-1.11.1.js",
                     "type": "file"
                 }
             }
