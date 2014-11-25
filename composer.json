@@ -8,7 +8,6 @@
     },
     "require": {
         "php": "~5.5",
-        "ext/intl": "*",
         "symfony/symfony": "2.5.*",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
@@ -21,11 +20,11 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "braincrafted/bootstrap-bundle": "~2.0",
         "twbs/bootstrap": "3.3.*",
-        "jquery/jquery":  "1.11.1"
+        "jquery/jquery":  "1.11.1",
+        "sensio/generator-bundle": "~2.3"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "*",
-        "sensio/generator-bundle": "~2.3",
         "behat/behat":  "3.0.*",
         "behat/symfony2-extension": "~2.0@dev",
         "behat/mink-extension": "~2.0@dev",
