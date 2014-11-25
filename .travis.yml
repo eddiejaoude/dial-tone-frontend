@@ -5,6 +5,7 @@ php:
 
 before_script:
   - make composer.install
+  - make assetic.install
 
 script:
   - make test.run
@@ -37,5 +38,3 @@ deploy:
   app: dial-tone-frontend
   on:
     all_branches: true
-  run:
-    - "php app/console assetic:dump --env=prod --no-debug"
