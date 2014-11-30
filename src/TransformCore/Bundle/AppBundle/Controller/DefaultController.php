@@ -12,12 +12,11 @@ class DefaultController extends Controller
 {
 
     /**
-     * @param string $name
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function indexAction($name)
+    public function indexAction()
     {
-        return $this->render('TransformCoreAppBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('TransformCoreAppBundle:Default:index.html.twig');
     }
 
     /**

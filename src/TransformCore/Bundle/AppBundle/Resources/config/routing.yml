@@ -3,5 +3,5 @@ transform_core_app_changelog:
     defaults: { _controller: TransformCoreAppBundle:Default:changelog }
 
 transform_core_app_homepage:
-    path:     /hello/{name}
+    path:     /
     defaults: { _controller: TransformCoreAppBundle:Default:index }
