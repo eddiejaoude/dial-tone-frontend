@@ -10,6 +10,7 @@ extensions:
 code_coverage:
   whitelist:
     - src/TransformCore/Bundle/AppBundle/Entity
+    - src/TransformCore/Bundle/AppBundle/Menu
   format:
     #- html
     - clover
