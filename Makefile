@@ -18,7 +18,7 @@ scrutinizer.coverage:
 	wget https://scrutinizer-ci.com/ocular.phar
 	php ocular.phar code-coverage:upload --format=php-clover test/build/coverage.xml
 
-build.package: build.user build.version build.changelog build.tag
+build.package: build.user build.version build.changelog build.assets build.tag
 
 build.user:
 	git config --global user.email "builds@travis-ci.com"
@@ -31,6 +31,10 @@ build.version:
 build.changelog:
 	git log --decorate --all --oneline --graph > changelog
 	git commit -m "Created changelog" changelog
+
+build.assets:
+	git add web/
+	git commit -m "Web assets added" web/
 
 build.tag:
 	git tag $(GIT_TAG) -a -m "Generated tag from TravisCI build $(TRAVIS_BUILD_NUMBER)"
