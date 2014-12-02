@@ -38,7 +38,9 @@ build.changelog:
 	git commit -m "Created changelog" changelog
 
 build.assets:
-	git add web/
+	php app/console assetic:dump
+	git add web/css/*
+	git add web/js/*
 	git commit -m "Web assets added" web/
 
 build.tag:
