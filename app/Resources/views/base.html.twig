@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}Welcome!{% endblock title %}</title>
+        {% block stylesheets %}{% endblock stylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
         <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" media="screen">
@@ -35,8 +35,8 @@
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container">
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block body %}{% endblock body %}
+        {% block javascripts %}{% endblock javascripts %}
     </div>
     </body>
 </html>
