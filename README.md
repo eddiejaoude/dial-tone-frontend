@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-* [Contribution guidelines](/doc/ContributionGuidelines.md)
+* [Contribution guidelines](/CONTRIBUTING.md)
 * [Versioning successful builds - Release Candidates](/doc/Versioning.md)
 
 ## Run app
