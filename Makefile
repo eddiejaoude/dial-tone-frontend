@@ -34,7 +34,7 @@ build.version:
 	git commit -m "Set build VERSION number $(GIT_TAG)" version.ini
 
 build.changelog:
-	git log --decorate --all --oneline --graph > changelog
+	git log --all --format='%h%x09%an%x09%ad%x09%s' > changelog
 	git commit -m "Created changelog" changelog
 
 build.assets:
