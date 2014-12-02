@@ -1,0 +1,54 @@
+* b43b68a (HEAD) Set build VERSION number build-develop-79
+*   222ac19 Merge 390397e8cff79b9939a5d167f1261bf8cd253ea5 into 649a8db1e45f42e08ad86455e253b84e57efb8d8
+|\  
+| * 390397e (origin/feature/symfony2-behat, origin/HEAD, feature/symfony2-behat) Annotated `end block` with block details
+| * 738de0b Changelog functional test added
+| * fddea2e Re-clearing cache after deployment
+| * 50416c1 Moved Navigation to MenuBuilder
+| * 1af5393 Functional tests & included in parallel tests
+| * 8d0f764 Demo page changed to Welcome page on `/`
+| * 6b76198 Move Dev Bundle back to dev section in AppKernel
+| * fc2124a Updated composer lock file
+| * b44c79e Moved GenBundle back to dev
+| * 55d32f3 Moved GenBundle from dev to prod
+| * 2726d2b Added ext/intl to composer as suggested by heroku
+| * 50dabbd Removed command as no longer required
+| * 829d5ce Removed run assetics command after deploy
+| * 17c6821 Run assetic dump after deploy
+| * 13137f5 Updated jQuery version in composer
+| * 195738e Removed javascript includes in base template
+| * c813243 Removed not required config
+| * bda3ffc Generated file re-formatted
+| * febcbd2 Updated Page Layout documentation
+| * a7ac1d3 Removed optional params from app setup
+| * 171f40b Heroku app config file added
+| * a72fb56 Reverted to default php build pack
+| * be15940 Updated composer lock file
+| * 0adc2b8 Removed branch from custom build pack
+| * 91f93df Revert "Git url custom build pack"
+| * 1839459 Git url custom build pack
+| * 29136fb Custom build pack - composer dev mode for heroku
+| * 13c1677 Updated production config to log to stderr stream
+| * 227ddb4 Revert "Test commit for prod mode"
+| * 96ad233 Test commit for prod mode
+| * bb6d004 Running dev server with verbose on
+| * 74e0892 Updated meta-data (name & description) in composer
+| * 789f9a8 Removed duplicates in git ignore
+| * 1ddb948 Updated composer lock file
+| * 3054e7d Moved heroku build pack to dev requirement
+| * e0e6545 Deploy TravisCI to Heroku after successful build
+| * 29bf353 Heroku config file added & build pack dependency
+| * 993acd0 Extended MinkContext to use provided Contexts
+| * d95e018 Changelog behat feature added
+| * d43dca8 Makefile does a Git Pull Tags before switching
+| * 4cd0420 Updated composer lock
+| * 7d4cd57 dev.update added to make file
+| * 1dcf4f3 Removed ENV check from dev.run command
+| * 7666868 Log dump added to Makefile. AfterFailure dump log
+| * 3bef5b3 Travis / Slack integration, removed quoted token
+| * 7079694 Updated TravisCI / Slack integration config
+| * 0e3b18a Fixed typos in documentation
+| * e450be7 Updated jQuery
+| * 13ce1d0 Upgrade jQuery & twitter bootstrap symfony bundle
+| * cb4787f (grafted) TravisCI & Slack integration updated token / var
+* 649a8db Initial commit
