@@ -1,5 +1,6 @@
 tools:
-  external_code_coverage: true
+  external_code_coverage:
+    timeout: 600
   php_sim: true
   php_pdepend: true
   php_analyzer: true
@@ -10,4 +11,4 @@ checks:
 
 filter:
     paths: [src/*]
-    excluded_paths: [src/Transform/AppBundle/Tests/*]
+    excluded_paths: [Tests/*, src/Transform/AppBundle/Tests/*]
