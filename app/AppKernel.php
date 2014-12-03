@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new TransformCore\Bundle\AppBundle\TransformCoreAppBundle(),
         );
 
