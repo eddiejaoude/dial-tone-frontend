@@ -8,6 +8,8 @@
 
 Latest deploy (inc. branches) https://dial-tone-frontend.herokuapp.com/en/  
 
+**Note: if you get an error, wait a minute & try again (refresh the page), the Application is probably deploying out or has gone to sleep.**
+
 ## Table of Contents
 
 * [Contribution guidelines](/CONTRIBUTING.md)
