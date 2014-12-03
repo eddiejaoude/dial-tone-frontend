@@ -11,4 +11,4 @@ checks:
 
 filter:
     paths: [src/*]
-    excluded_paths: [src/Transform/AppBundle/Tests/*]
+    excluded_paths: [Tests/*, src/Transform/AppBundle/Tests/*]
