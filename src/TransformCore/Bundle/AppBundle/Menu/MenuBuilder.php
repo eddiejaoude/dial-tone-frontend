@@ -19,10 +19,10 @@ class MenuBuilder
     public function createMainMenu(Request $request)
     {
         $menu = $this->factory->createItem('root');
-        $menu->setChildrenAttributes(array('class' => 'navbar-nav'));
+        $menu->setChildrenAttributes(array('class' => 'navbar-nav nav'));
 
-        $menu->addChild('Home', array('route' => 'transform_core_app_homepage'));
-        $menu->addChild('Login', array('route' => 'transform_core_app_homepage'));
+        $menu->addChild('nav.home', array('route' => 'transform_core_app_homepage'));
+        $menu->addChild('nav.login', array('route' => 'transform_core_app_homepage'));
         // ... add more children
 
         return $menu;
