@@ -1,8 +1,10 @@
-[![Build Status](https://travis-ci.org/TransformCore/dial-tone-frontend.svg?branch=feature%2Fsymfony2-behat)](https://travis-ci.org/TransformCore/dial-tone-frontend)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/quality-score.png?b=feature%2Fsymfony2-behat)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=feature%2Fsymfony2-behat)
-[![Dependency Status](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f)
-[![Dependency Status](https://www.versioneye.com/user/projects/546b16539508250a0c000166/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b16539508250a0c000166)
-[![Code Coverage](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/coverage.png?b=feature%2Fsymfony2-behat)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=feature%2Fsymfony2-behat)
+| --------- | master | develop | feature |
+| --------- | ------ | ------- | ------- |
+| Build     | [![Build Status](https://travis-ci.org/TransformCore/dial-tone-frontend.svg?branch=master)](https://travis-ci.org/TransformCore/dial-tone-frontend) | [![Build Status](https://travis-ci.org/TransformCore/dial-tone-frontend.svg?branch=develop)](https://travis-ci.org/TransformCore/dial-tone-frontend) | --- |
+| Coverage  | [![Code Coverage](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=master) | [![Code Coverage](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=develop) | --- |
+| Analysis  | [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=master) | [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/TransformCore/dial-tone-frontend/?branch=develop) | --- |
+| json deps | [![Dependency Status](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b164d9508250a0c00014f) | --- | --- |
+| lock deps | [![Dependency Status](https://www.versioneye.com/user/projects/546b16539508250a0c000166/badge.svg?style=flat)](https://www.versioneye.com/user/projects/546b16539508250a0c000166) | --- | --- |
 
 # DialTone
 
