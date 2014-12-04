@@ -1,0 +1,60 @@
+f809bc5	Travis CI	Thu Dec 4 07:30:00 2014 +0000	Set build VERSION number build-develop-109
+31ec96e	Eddie Abou-Jaoude	Thu Dec 4 07:27:19 2014 +0000	Merge 93e0bfa09b290c9d24c1b7783a6d430b9f491f8c into a8d1f3a8463c364df3ba4b8a44d7f7e7f21ea5d5
+93e0bfa	Eddie Jaoude	Thu Dec 4 07:14:43 2014 +0000	Improved code coverage on MenuBuilder
+a8d1f3a	Rory Woodward	Wed Dec 3 18:02:18 2014 +0000	Merge pull request #3 from TransformCore/feature/localisation
+879366f	Eddie Jaoude	Wed Dec 3 12:42:34 2014 +0000	Updated Scrutiniser ignore path for Test files
+7a882ea	Eddie Jaoude	Wed Dec 3 12:33:29 2014 +0000	Ignoring `Tests` directory in static code analysis
+85a135f	Eddie Jaoude	Wed Dec 3 11:59:23 2014 +0000	Moved life cycle of code coverage send to earlier
+6ffa132	Eddie Jaoude	Wed Dec 3 11:30:34 2014 +0000	Increase code coverage timeout
+1a26d51	Eddie Jaoude	Wed Dec 3 07:25:44 2014 +0000	Updated docs regarding viewing the Application
+8ee26de	Eddie Jaoude	Wed Dec 3 06:43:57 2014 +0000	Added deploy url to README
+1633199	Eddie Jaoude	Wed Dec 3 05:28:16 2014 +0000	Localisation doc file added
+b20a03a	Eddie Jaoude	Wed Dec 3 04:39:55 2014 +0000	[CSR-56] Multi-lang support for page & navigation
+98d3618	Eddie Jaoude	Tue Dec 2 11:59:47 2014 +0000	Merge branch 'feature/symfony2-behat' into develop
+df012da	Eddie Jaoude	Tue Dec 2 11:42:20 2014 +0000	Removed Assets from git as these are part of build
+aa2ed73	Eddie Jaoude	Tue Dec 2 11:38:01 2014 +0000	Dump Assets as part of build & package
+55ba957	Eddie Jaoude	Tue Dec 2 07:34:32 2014 +0000	Changelog output reformatted with dates
+81ecdb8	Eddie Jaoude	Tue Dec 2 07:34:15 2014 +0000	Put comments in Makefile for easier reading
+f776b65	Eddie Jaoude	Tue Dec 2 07:14:06 2014 +0000	Updated documentation - using Contributing hook
+64ab440	Eddie Jaoude	Tue Dec 2 07:00:18 2014 +0000	Assets packaged for deploy
+ad5ce76	Eddie Jaoude	Tue Dec 2 06:28:42 2014 +0000	ENV variable added to layout (e.g.. dev / prod)
+390397e	Eddie Jaoude	Tue Dec 2 06:19:21 2014 +0000	Annotated `end block` with block details
+738de0b	Eddie Jaoude	Tue Dec 2 05:20:01 2014 +0000	Changelog functional test added
+fddea2e	Eddie Jaoude	Tue Dec 2 04:58:59 2014 +0000	Re-clearing cache after deployment
+50416c1	Eddie Jaoude	Mon Dec 1 11:28:43 2014 +0000	Moved Navigation to MenuBuilder
+1af5393	Eddie Jaoude	Sun Nov 30 20:07:33 2014 +0000	Functional tests & included in parallel tests
+8d0f764	Eddie Jaoude	Sun Nov 30 19:53:54 2014 +0000	Demo page changed to Welcome page on `/`
+6b76198	Eddie Jaoude	Tue Nov 25 13:27:14 2014 +0000	Move Dev Bundle back to dev section in AppKernel
+fc2124a	Eddie Jaoude	Tue Nov 25 13:10:43 2014 +0000	Updated composer lock file
+b44c79e	Eddie Jaoude	Tue Nov 25 13:03:13 2014 +0000	Moved GenBundle back to dev
+55d32f3	Eddie Jaoude	Tue Nov 25 09:24:04 2014 +0000	Moved GenBundle from dev to prod
+2726d2b	Eddie Jaoude	Tue Nov 25 08:45:46 2014 +0000	Added ext/intl to composer as suggested by heroku
+50dabbd	Eddie Jaoude	Tue Nov 25 07:58:28 2014 +0000	Removed command as no longer required
+829d5ce	Eddie Jaoude	Tue Nov 25 07:56:00 2014 +0000	Removed run assetics command after deploy
+17c6821	Eddie Jaoude	Mon Nov 24 22:34:38 2014 +0000	Run assetic dump after deploy
+13137f5	Eddie Jaoude	Mon Nov 24 22:29:45 2014 +0000	Updated jQuery version in composer
+195738e	Eddie Jaoude	Mon Nov 24 22:29:30 2014 +0000	Removed javascript includes in base template
+c813243	Eddie Jaoude	Mon Nov 24 22:29:12 2014 +0000	Removed not required config
+bda3ffc	Eddie Jaoude	Mon Nov 24 22:28:35 2014 +0000	Generated file re-formatted
+febcbd2	Eddie Jaoude	Mon Nov 24 08:50:17 2014 +0000	Updated Page Layout documentation
+a7ac1d3	Eddie Jaoude	Sun Nov 23 22:38:16 2014 +0000	Removed optional params from app setup
+171f40b	Eddie Jaoude	Sun Nov 23 22:27:06 2014 +0000	Heroku app config file added
+a72fb56	Eddie Jaoude	Sun Nov 23 22:13:08 2014 +0000	Reverted to default php build pack
+be15940	Eddie Jaoude	Sun Nov 23 21:56:50 2014 +0000	Updated composer lock file
+0adc2b8	Eddie Jaoude	Sun Nov 23 21:20:30 2014 +0000	Removed branch from custom build pack
+91f93df	Eddie Jaoude	Sun Nov 23 21:06:53 2014 +0000	Revert "Git url custom build pack"
+1839459	Eddie Jaoude	Sun Nov 23 20:54:48 2014 +0000	Git url custom build pack
+29136fb	Eddie Jaoude	Sun Nov 23 20:38:17 2014 +0000	Custom build pack - composer dev mode for heroku
+13c1677	Eddie Jaoude	Sun Nov 23 20:36:52 2014 +0000	Updated production config to log to stderr stream
+227ddb4	Eddie Jaoude	Sun Nov 23 19:52:20 2014 +0000	Revert "Test commit for prod mode"
+96ad233	Eddie Jaoude	Sun Nov 23 12:06:13 2014 +0000	Test commit for prod mode
+bb6d004	Eddie Jaoude	Sun Nov 23 12:05:27 2014 +0000	Running dev server with verbose on
+74e0892	Eddie Jaoude	Sun Nov 23 11:38:57 2014 +0000	Updated meta-data (name & description) in composer
+789f9a8	Eddie Jaoude	Sun Nov 23 11:22:04 2014 +0000	Removed duplicates in git ignore
+1ddb948	Eddie Jaoude	Sat Nov 22 10:55:52 2014 +0000	Updated composer lock file
+3054e7d	Eddie Jaoude	Sat Nov 22 10:52:08 2014 +0000	Moved heroku build pack to dev requirement
+e0e6545	Eddie Jaoude	Sat Nov 22 09:43:16 2014 +0000	Deploy TravisCI to Heroku after successful build
+29bf353	Eddie Jaoude	Sat Nov 22 08:12:30 2014 +0000	Heroku config file added & build pack dependency
+993acd0	Eddie Jaoude	Fri Nov 21 09:48:37 2014 +0000	Extended MinkContext to use provided Contexts
+d95e018	Eddie Jaoude	Fri Nov 21 09:46:16 2014 +0000	Changelog behat feature added
+649a8db	Eddie Jaoude	Fri Nov 14 07:56:08 2014 +0000	Initial commit
