@@ -4,6 +4,10 @@ namespace TransformCore\Bundle\AppBundle\Menu;
 use Knp\Menu\FactoryInterface;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * Class MenuBuilder
+ * @package TransformCore\Bundle\AppBundle\Menu
+ */
 class MenuBuilder
 {
     private $factory;
@@ -16,6 +20,11 @@ class MenuBuilder
         $this->factory = $factory;
     }
 
+    /**
+     * @param Request $request
+     *
+     * @return \Knp\Menu\ItemInterface
+     */
     public function createMainMenu(Request $request)
     {
         $menu = $this->factory->createItem('root');
